@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* line 5, ../sass/sytle.scss */
+body {
+  margin: 0;
+}
+
+/* line 10, ../sass/sytle.scss */
+header {
+  background-image: url(/home/rocio/Documentos/challenge/Challenger/proyect31/images/header.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  font-family: Open Sans,sans-serif;
+}
+
+/* colocación de nav. display con flex (para que pueda moverse donde nosotros queramos) tambien  */
+/* line 20, ../sass/sytle.scss */
+nav {
+  width: 1200px;
+  height: 50px;
+  background: transparent;
+  display: flex;
+  z-index: 2;
+}
+/* line 26, ../sass/sytle.scss */
+nav .logo img {
+  width: 14%;
+  height: 60%;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+/* line 33, ../sass/sytle.scss */
+nav .menu {
+  font-family: Open Sans,sans-serif;
+  color: #30343F;
+  word-spacing: 24px;
+  width: 79%;
+  line-height: 28px;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 60px;
+  padding-top: 10px;
+  text-align: right;
+}
+/* line 44, ../sass/sytle.scss */
+nav .menu a {
+  color: #4A4A4A;
+}
+
+/* line 50, ../sass/sytle.scss */
+main {
+  display: grid;
+}
+/* line 52, ../sass/sytle.scss */
+main h2 {
+  color: #4A4A4A;
+  font-family: Open Sans,sans-serif;
+  width: 20%;
+  text-align: left;
+  position: relative;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+/* line 61, ../sass/sytle.scss */
+main .we {
+  color: #4A4A4A;
+  font-family: Open Sans,sans-serif;
+  text-align: left;
+  position: relative;
+  padding-left: 60px;
+  padding-top: 20px;
+  display: inline;
+}
+/* line 70, ../sass/sytle.scss */
+main p {
+  font-family: Open Sans,sans-serif;
+  width: 20%;
+  text-align: left;
+  position: relative;
+  padding-left: 60px;
+  padding-top: 25px;
+}
+/* line 78, ../sass/sytle.scss */
+main .our {
+  color: #4A4A4A;
+  font-family: Open Sans,sans-serif;
+  text-align: left;
+  padding-left: 150px;
+  padding-top: 10px;
+  display: inline;
+}
+/* line 86, ../sass/sytle.scss */
+main .deli {
+  color: #4A4A4A;
+  font-family: Open Sans,sans-serif;
+  text-align: left;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+/* line 94, ../sass/sytle.scss */
+main .delisi {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 150px;
+}
+
+/* line 101, ../sass/sytle.scss */
+.color {
+  color: #4A4A4A;
+}
